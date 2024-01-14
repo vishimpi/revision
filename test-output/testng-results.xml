@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[opening amazon]]>
+    </line>
+    <line>
+      <![CDATA[Opening Ajio]]>
+    </line>
+    <line>
+      <![CDATA[Opening flipcart]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-14T09:37:45 IST" name="Suite" finished-at="2024-01-14T09:38:22 IST" duration-ms="36507">
+    <groups>
+    </groups>
+    <test started-at="2024-01-14T09:37:45 IST" name="Test" finished-at="2024-01-14T09:38:22 IST" duration-ms="36507">
+      <class name="ecommerse.Flickcart">
+        <test-method signature="flipcartTest()[pri:0, instance:ecommerse.Flickcart@6b81ce95]" started-at="2024-01-14T09:38:10 IST" name="flipcartTest" finished-at="2024-01-14T09:38:22 IST" duration-ms="11381" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening flipcart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flipcartTest -->
+      </class> <!-- ecommerse.Flickcart -->
+      <class name="ecommerse.Ajio">
+        <test-method signature="ajioTest()[pri:0, instance:ecommerse.Ajio@6572421]" started-at="2024-01-14T09:37:57 IST" name="ajioTest" finished-at="2024-01-14T09:38:10 IST" duration-ms="12974" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Ajio]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ajioTest -->
+      </class> <!-- ecommerse.Ajio -->
+      <class name="ecommerse.Amazon">
+        <test-method signature="amazonTEst()[pri:0, instance:ecommerse.Amazon@4cc451f2]" started-at="2024-01-14T09:37:45 IST" name="amazonTEst" finished-at="2024-01-14T09:37:57 IST" duration-ms="12070" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[opening amazon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amazonTEst -->
+      </class> <!-- ecommerse.Amazon -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
